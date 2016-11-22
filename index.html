@@ -4,33 +4,141 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	
+	<!-- Insertando mi favicon.ico -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
-	<header>
-      <h1 class="text-blue">ESCUELA DE DANZA</h1>
-      <ul class="nav">
-          <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
-          <li><a href="clases.html" target="_blank">Clases</a></li>
-          <li><a href="blog.html" target="_blank" >Blog</a></li>
-          <li><a href="#contactanos" target="_blank">Contáctanos</a></li>
-      </ul>  
-    </header>
-    
-    <section class="hero container">
-      <div class="studio">
-         <h1>STUDIO</h1>
-         <p>Julliart Studios is the perfect place to find your feet with over 20 unique styles of dance and 80 teachers to choose from.</p>
-         <br>
-         <a class="inscribete" href="#">&nbsp; Inscríbete</a>
-      </div>        
-    </section>	
-    
-    <section>  
-    </section>
+
+	<!-- Creando los menús de navegación -->
+
+	<nav>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<h1 class="text-center text blue titulo">ESCUELA DE DANZA</h1>
+			<ul>
+				<li> <a  class="a-none-decoration text-gray" href="nosotros.html">Nosotros</a></li>
+				<li> <a  class="a-none-decoration text-gray" href="clases.html">Clases</a></li>
+				<li> <a  class="a-none-decoration text-gray" href="#">Blog</a></li>
+				<li> <a  class="a-none-decoration text-gray" href="#">Contáctanos</a></li>
+			</ul>
+			</div>
+		</div>	
+		</div>
+	</nav>
+	
+	<!-- Creando el fondo -->
+
+	<section class="fondo bg-img-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h1 class="studio titulo1">
+					STUDIO
+					</h1>
+					<p class="studio titulo">
+						Julliart Studios is the perfect palce to find your feet with over 20 unique styles of dance and 80 teachers to choose from.
+					</p>
+					<button class="inscribete"><a class="text-white" href="#">Inscribete</a></button>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Creando el texto con textura1 adentro -->
+
+	<section class="textura text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="trayectoria">Juilliart cuenta con una amplia trayectoria y reputación , brindando una formación de excelencia a cientos de amantes de la danza.</p>
+					<img  class="ornamento"src="img/decoration_1.png" alt="Decoración 1">
+					<button class="boton2">Oferta de clases</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 2*1 fotografias -->
+
+	<section class="fotos2">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 fotohombre"></div>
+				<div class="col-md-6 fotobailarina"></div>
+				<button class="boton3">NUESTROS INSTRUCTORES</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- Creando el texto con textura2 adentro -->
+
+	<section class="textura2 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="ladanza">"La danza es un poema en el que cada movimiento es una palabra"</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Creando el Mapa-->
+
+	<section class="mapa">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<p class="textorelleno">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate veritatis, totam quia repudiandae rerum cumque molestias veniam debitis, consectetur, voluptatibus delectus quam iure ratione suscipit. Nostrum in, cupiditate sed laboriosam.</p>
+					<h1 class="visitanos">Visitanos</h1>
+					<p class="textsmall">The Juillard school</p>
+					<p class="textsmall">60 Lincoln Center Plaza</p>
+					<p class="textsmall">New York , NY 10023</p>
+					<p class="textsmall">(212) 799 - 5000 </p>
+				</div>
+		
+		<!-- Creando el IFFRAME-->
+
+				<div class="col-md-7">
+					<iframe class="calles" src="https://www.google.com.pe/maps/place/Escuela+Juilliard/@40.7737587,-73.9850173,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2585ff9df2f6d:0xf876ccebba645bff!8m2!3d40.7737587!4d-73.9828286" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<!-- Formulario de contactos -->
+		
+	<section class="contactanos bg-img-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<p class="contacto titulo">Contáctanos</p>
+					<p class="nombre">Nombre</p>
+					<p class="email">Email</p>
+					<p class="mensaje">Mensaje</p>
+					<button class="enviar tex-center">ENVIAR</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				<p class="futer">© Escuela de danza. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

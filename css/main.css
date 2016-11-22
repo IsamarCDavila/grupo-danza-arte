@@ -1,1 +1,218 @@
 /* Inserta tu codigo aqui */
+*{
+	outline: 1px solid green;
+}
+
+/* Creando los menús de navegación */
+.text-center{
+	color: #050933;
+	font-family: "Homer Simpson", cursive
+}
+.a-none-decoration {
+	list-style: none;
+	color:#979797;
+}
+
+
+
+
+
+/* Creando el fondo */
+.fondo{
+	background-image: url("../img/dance_1.jpg");
+	height: 500px;
+	margin-top: 7%;
+}
+
+.studio{
+	color:#c3c6c5;
+}
+
+.inscribete{
+	height: 50px;
+	width: 150px;
+	background-color: #040e1e;
+	background-color:#040e1e;
+	border-radius: 5px;
+	box-shadow: none;
+	margin: 10px 3px ;
+}
+
+
+
+/* Titulo1 y subtitulo */
+.titulo1 {
+	font-size: 80px;
+}
+
+p {
+	font-size: 13px;
+}
+
+.textura{
+	background-image: url("../img/textura_2.jpg");
+	height: 370px; /* Preguntar al profesor */
+}
+
+/* Creando el texto con textura1 adentro */
+
+.trayectoria{
+	font-size: 25px;
+	color: grey;
+	padding: 6%
+}
+.ornamento{
+	width: 190px;
+	height: 140px;
+	position: absolute;
+	top:100px;
+	left: 400px;
+}
+.boton2{
+	display: block;
+	height: 57px;
+	width: 300px;
+	background-color: #1a2952;
+	border-color: #1a2952;
+	border-radius: 5px;
+	box-shadow: none;
+	position: absolute;
+	left: 350px;
+	top:235px;
+	color: white;
+}
+
+/*  2*1 fotografias */
+
+.fotohombre{
+	background-image: url("../img/instructor_4.jpg");
+	height: 300px;
+	max-height: 100%;
+	background-size: cover;
+	border: 1px solid #1a2952;
+	
+}
+
+.fotobailarina{
+	background-image: url("../img/profesor_9.jpg");
+	height: 300px;
+	max-height: 100%;
+	background-size: cover;
+	border: 1px solid #1a2952;
+}
+
+.boton3{
+	display:block;
+	width: 450px;
+	height: 60px;
+	background-color: #1a2952;
+	border-color: #1a2952;
+	border-radius: 5px;
+	box-shadow: none;
+	position: absolute;
+	position: absolute;
+	left: 320px;
+	top: 1338px;
+	color:#ADADAD;
+
+}
+
+/*  Creando el texto con textura2 adentro */
+ 
+ .textura2{
+ 	background-image: url("../img/textura_2.jpg");
+ 	height: 300px;
+ }
+.ladanza{
+	font-size: 35px;
+	color: #040404;
+	padding:10%;
+	text-align: center;
+}
+
+/* Creando el Mapa */
+
+.mapa{
+	background-color: #1a2952;
+	height: 400px;
+}
+
+.textorelleno{
+	margin-top:60px;
+	color: white;
+}
+.visitanos{
+	color:white;
+}
+.textsmall{
+	color:white;
+}
+
+/* Formulario de contactos */
+.contactanos{
+	background-image: url("../img/shoes_!.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+.contacto{
+	color: #1a2952;
+	font-size:40px;
+	position: absolute;
+	top:70px;
+}
+.nombre{
+	width: 479px;
+	height: 44px;
+	border: 2px solid #ededed;
+	position: absolute;
+	top:137px;
+	color:  #919191;
+	padding: 10px;
+}
+.email{
+	width: 479px;
+	height: 44px;
+	border: 2px solid #ededed;
+	position: absolute;
+	top:186px;
+	color: #919191;
+	padding: 10px;
+}
+.mensaje{
+	width: 479px;
+	height: 115px;
+	border: 2px solid #ededed;
+	position: absolute;
+	top:236px;
+	color: #919191;
+	padding: 10px;
+}
+.enviar {
+	display: block;
+	width: 477px;
+	height: 56px;
+	background-color:#1A2952;
+	border-color:#1A2952;
+	border-radius: 5px;
+	box-shadow: none;
+	color: #919191;
+	position: absolute;
+	top:366px;
+}
+
+/* Footer */
+footer{
+	max-width: 100%;
+	height:100px;
+	background-color: #1A2952;
+	color:#ededed;
+}
+.futer {
+	color:#7d8cb0;
+	position: absolute;
+	top:20px;
+	left:80px;
+
+}
