@@ -1,36 +1,31 @@
-/* Inserta tu codigo aqui */
-*{
-	outline: 1px solid green;
-}
-
 .profesor {
 	background-image: url("../img/dance_7.jpg");
-	height: 550px;
-    width: 2200px;
-    background-size: cover;
-    margin-bottom: -70px;
+	height: 500px;
+    max-width: 100%;
 }
 .sobrenosotros {
 	width: 504px;
 	height: 193px;
 	background-color: black;
-	opacity: .7;
+	opacity: .5;
 	position: absolute;
-	left:-30px;
-	top:124px;
+	left:378px;
+	top:104px;
 	padding: 29px;
 }
 .sobrenosotros, p {
 	color: white;
 	font-size: 20px;
-}
-.sobrenosotros1{
-    position: absolute;
-    top: 190px;
-    width: 340px;
-    margin-left: 30px;
-}
 
+
+}
+.descripcion, p {
+	font-size: 13px;
+	width: 417px;
+	position: absolute;
+	left:422px;
+	top:187px;
+}
 .pilares {
 	background-image: url("../img/cubes.png");
 	height: 336px;
@@ -39,8 +34,8 @@
 	color:grey;
 	font-size: 20px;
 	position: absolute;
-	top:100px;
-	left: 255px;
+	top:94px;
+	left: 271px;
 }
 .linea1 {
 	width: 220px;
@@ -72,7 +67,7 @@
 .textopilares1, p {
 	color:grey;
 	font-size: 12px;
-	width: 253px;
+	width: 223px;
 	height: 53px;
 	position: absolute;
 	left: 187px;
@@ -92,7 +87,7 @@
 	font-size: 20px;
 	position: absolute;
 	top:94px;
-	left: 185px;
+	left: 200px;
 
 }
 
@@ -101,7 +96,7 @@
 	font-size: 20px;
 	position: absolute;
 	top:94px;
-	left: 100px;
+	left: 115px;
 }
 .textopilares3, p {
 	color:grey;
@@ -117,114 +112,122 @@
 .instructores {
 	margin-top: 96px;
 	margin-bottom: 76px;
-	color: #000000;
 }
 
-.profesor1 {
+.profe1 {
 	background-image: url("../img/profesor_4.jpg");
-	height: 220px;
-    width: 292px;
+	height: 176px;
 	background-size: cover;
-	margin-bottom:171px;
-	margin-left: 10px 10px;
+	margin-bottom: 171px;
+	display: inline-block;
+	border-left:10px solid white;
+	border-right: 10px solid white;
 	
 
 }
-.profesor2 {
+.profe2 {
 	background-image: url("../img/profesor_14.jpg");
-	height: 220px;
-    width: 292px;
+	height: 176px;
 	background-size: cover;
 	margin-bottom:171px;
+	border-left:10px solid white;
+	border-right: 10px solid white;
 }
-.profesor3 {
+.profe3 {
 	background-image: url("../img/profesor_1.jpg");
-	height: 220px;
-    width: 292px;
+	height: 176px;
 	background-size: cover;
 	margin-bottom: 171px;
+	border-left:10px solid white;
+	border-right: 10px solid white;
 }
-.profesor4 {
+.profe4 {
 	background-image: url("../img/profesor_10.jpg");
-	height: 220px;
-    width: 292px;
+	height: 176px;
 	background-size: cover;
 	margin-bottom: 171px;
+	border-left:10px solid white;
+	border-right: 10px solid white;
 }
 .nombreprofe{
 	color: black;
-	margin-top:70px;
+	margin-top:21px;
 	font-size: 13px;
 	font-weight: bolder;
 }
 .textonombre {
 	color: black;
-	margin-top: 90px;
+	margin-top: 40px;
 }
-.profesor5 {
+.profe5 {
 	background-image: url("../img/profesor_11.jpg");
-	height: 220px;
-    width: 292px;
+	height: 176px;
 	background-size: cover;
 	display: inline-block;
 	margin-bottom: 104px;
-    margin-left: 17px;
+	border-left:10px solid white;
+	border-right: 10px solid white;
 }
 
-.profesor6 {
+.profe6 {
 	background-image: url("../img/profesor_12.jpg");
-	height: 220px;
-    width: 292px;
+	height: 176px;
 	background-size: cover;
 	display: block;
+	border-left:10px solid white;
+	border-right: 10px solid white;
 }
-.profesor7 {
+.profe7 {
 	background-image: url("../img/profesor_9.jpg");
-	height: 220px;
-    width: 292px;
-	background-size: cover;
-	display:block;
-}
-.profesor8 {
-	background-image: url("../img/profesor_15.jpg");
-	height: 220px;
-    width: 292px;
+	height: 176px;
 	background-size: cover;
 	display: block;
-
+	border-left:10px solid white;
+	border-right: 10px solid white;
 }
-
+.profe8 {
+	background-image: url("../img/profesor_15.jpg");
+	height: 176px;
+	background-size: cover;
+	display: block;
+	border-left:10px solid white;
+	border-right: 10px solid white;
+}
 /*INSPIRACION*/
-
 .inspiracion {
 	background-image: url("../img/cubes.png");
 	height: 336px;
 }
 .frase  {
-	font-size: 50px;
+	font-size: 20px;
 	width: 900px;
 	font-weight: bolder;
 	margin-left: 167px;
 }
 /*FORMULARIO DE CONTACTO*/
-<<<<<<< HEAD
+.contactanos {
+	background-image: url("../img/shoes_!.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+.contacto { 
+	color:#1A2952;
+	font-size: 40px;
+	position: absolute;
+    top:70px;
+} 
+
 .contenido {
     background: url(../img/shoes_1.jpg) no-repeat;
     background-position: right;
     height: 466px;
 }
-.contenido img{
-    position: relative;
-    top: -35px;
-    left: 10px;
-    width: 20px;
-}
-.contenido .lapiz{
-    position: relative;
-    top: -105px;
-}
 .contenido h2 {
     font-weight: bold;
+    position: relative;
+    left: 0px;
 }
 .contenido form {
     width: 52%;
@@ -244,58 +247,43 @@
     min-width: 100%;
     max-width: 100%;
     height: 100px;
-=======
-.contactanos {
-	background-image: url("../img/shoes_!.jpg");
-	height: 300px;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: right;
-	
-}
-.contacto { 
-	color:#1A2952;
-	font-size: 40px;
-	position: absolute;
-	margin: 50px
-    top:50px;
-} 
-
-.nombre{
-	width: 479px;
-	height: 44px;
-	border: 2px solid #8C8C8C;
-	position: absolute;
-	top:137px;
-	color:#8C8C8C;
-	padding: 10px;
-}
-.email{
-	width: 479px;
-	height: 44px;
-	border: 2px solid #8C8C8C ;
-	position: absolute;
-	top:186px;
-	color:#8C8C8C;
-	padding: 10px;
-}
-.mensaje{
-	width: 479px;
-	height: 115px;
-	border: 2px solid #8C8C8C;
-	position: absolute;
-	top:236px;
-	color:#8C8C8C;
-	padding: 10px;
->>>>>>> 563fd5aea078ac0d9eb86005449dc1c7d4630f1d
 }
 .contenido .send {
-    background: #192951;;
+    background: #192951;
     padding: 14px;
     color: #fff;
     border-radius: 5px;
     font-size: 16px;
 }
-footer p{
-    padding: 100px;
+.contenido .icono{
+	position: relative;
+	top:-35px;
+	left: 10px;
+	width: 20px;
+}
+.contenido .icono1{
+	position: relative;
+	top:-105px;
+	left: 10px;
+	width: 20px;
+}
+
+
+
+
+footer {
+	max-width: 100%;
+	height:100px;
+	background-color: #1A2952;
+	color:#ededed;
+}
+/*FOOTER*/
+
+.futer {
+	color:#7d8cb0;
+	position: absolute;
+	top:20px;
+	left:-22px;
+	width: 269px;
+
 }
