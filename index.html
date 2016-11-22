@@ -8,6 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/clases.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	
 	<!-- Insertando mi favicon.ico -->
 	<link rel="shortcut icon" href="img/favicon.ico">
@@ -18,21 +21,19 @@
 
 	<!-- Creando los menús de navegación -->
 
-	<nav>
-		<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-			<h1 class="text-center text blue titulo">ESCUELA DE DANZA</h1>
-			<ul>
-				<li> <a  class="a-none-decoration text-gray" href="nosotros.html">Nosotros</a></li>
-				<li> <a  class="a-none-decoration text-gray" href="clases.html">Clases</a></li>
-				<li> <a  class="a-none-decoration text-gray" href="#">Blog</a></li>
-				<li> <a  class="a-none-decoration text-gray" href="#">Contáctanos</a></li>
-			</ul>
+	<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center text-blue fs-header">
+						<h1 class="titulo01">ESCUELA DE DANZA</h1>
+			 <a href="nosotros.html" target="_blank">Nosotros</a>
+			 <a href="clases.html" target="_blank">Clases</a>
+			 <a href="blog.html" target="_blank">Blog</a>
+			 <a href="#contactanos" target="_blank">Contáctanos</a>
+			 		</div>
+				</div>
 			</div>
-		</div>	
-		</div>
-	</nav>
+	</header>
 	
 	<!-- Creando el fondo -->
 
@@ -96,7 +97,7 @@
 	<section class="mapa">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 vistanos1">
 					<p class="textorelleno">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate veritatis, totam quia repudiandae rerum cumque molestias veniam debitis, consectetur, voluptatibus delectus quam iure ratione suscipit. Nostrum in, cupiditate sed laboriosam.</p>
 					<h1 class="visitanos">Visitanos</h1>
 					<p class="textsmall">The Juillard school</p>
@@ -108,7 +109,9 @@
 		<!-- Creando el IFFRAME-->
 
 				<div class="col-md-7">
-					<iframe class="calles" src="https://www.google.com.pe/maps/place/Escuela+Juilliard/@40.7737587,-73.9850173,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2585ff9df2f6d:0xf876ccebba645bff!8m2!3d40.7737587!4d-73.9828286" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="mapita">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.5033347215153!2d-73.98407087568677!3d40.772947336146295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585ff9df2f6d%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses!2spe!4v1479834236985" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -116,29 +119,26 @@
 
 		<!-- Formulario de contactos -->
 		
-	<section class="contactanos bg-img-block">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<p class="contacto titulo">Contáctanos</p>
-					<p class="nombre">Nombre</p>
-					<p class="email">Email</p>
-					<p class="mensaje">Mensaje</p>
-					<button class="enviar tex-center">ENVIAR</button>
-				</div>
-			</div>
+	<section class="contenido">
+       <div class="contenedor">
+	        <a name="contactanos"></a>
+	        <h2 class="text-blue">Contáctanos</h2>    
+	        <form action="">
+	         <label class="user" for="nombre"></label>
+	         <input  type="text" id="nombre" placeholder="Nombre" >
+	        <img class="icono" src="icons/glyphicons-4-user.png">
+	         <input type="text" id="email" placeholder="Email">
+	         <label class="message" for="mensaje"></label>
+	         <img class="icono" src="icons/glyphicons-11-envelope.png">
+	         <textarea type="text" id="mensaje" placeholder="Mensaje"></textarea>
+	         <img class="icono1" src="icons/glyphicons-31-pencil.png">
+	         <input class="send" type="submit" value="ENVIAR">
+        </form>
 		</div>
 	</section>
-
 	<!-- Footer -->
 	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-				<p class="futer">© Escuela de danza. Todos los derechos reservados.</p>
-				</div>
-			</div>
-		</div>
+		<p>© Escuela de danza. Todos los derechos reservados.</p>	
 	</footer>
 </body>
 </html>

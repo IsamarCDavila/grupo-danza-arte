@@ -3,7 +3,6 @@
 	outline: 1px solid green;
 }
 
-
 .profesor {
 	background-image: url("../img/dance_7.jpg");
 	height: 550px;
@@ -208,6 +207,7 @@
 	margin-left: 167px;
 }
 /*FORMULARIO DE CONTACTO*/
+<<<<<<< HEAD
 .contenido {
     background: url(../img/shoes_1.jpg) no-repeat;
     background-position: right;
@@ -244,6 +244,50 @@
     min-width: 100%;
     max-width: 100%;
     height: 100px;
+=======
+.contactanos {
+	background-image: url("../img/shoes_!.jpg");
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	
+}
+.contacto { 
+	color:#1A2952;
+	font-size: 40px;
+	position: absolute;
+	margin: 50px
+    top:50px;
+} 
+
+.nombre{
+	width: 479px;
+	height: 44px;
+	border: 2px solid #8C8C8C;
+	position: absolute;
+	top:137px;
+	color:#8C8C8C;
+	padding: 10px;
+}
+.email{
+	width: 479px;
+	height: 44px;
+	border: 2px solid #8C8C8C ;
+	position: absolute;
+	top:186px;
+	color:#8C8C8C;
+	padding: 10px;
+}
+.mensaje{
+	width: 479px;
+	height: 115px;
+	border: 2px solid #8C8C8C;
+	position: absolute;
+	top:236px;
+	color:#8C8C8C;
+	padding: 10px;
+>>>>>>> 563fd5aea078ac0d9eb86005449dc1c7d4630f1d
 }
 .contenido .send {
     background: #192951;;
