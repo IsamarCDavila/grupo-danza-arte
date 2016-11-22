@@ -3,7 +3,6 @@
 	outline: 1px solid green;
 }
 
-
 .profesor {
 	background-image: url("../img/dance_7.jpg");
 	height: 500px;
@@ -202,16 +201,18 @@
 /*FORMULARIO DE CONTACTO*/
 .contactanos {
 	background-image: url("../img/shoes_!.jpg");
-	height: 500px;
+	height: 300px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right;
+	
 }
 .contacto { 
 	color:#1A2952;
 	font-size: 40px;
 	position: absolute;
-    top:70px;
+	margin: 50px
+    top:50px;
 } 
 
 .nombre{

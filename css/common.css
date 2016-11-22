@@ -1,9 +1,10 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
-* {
+/* {
     margin: 0;
     padding: 0;
     outline: 1px solid rgba(255,0,0,0.4);
 }
+*/
 .contenedor {
     margin:0px;
     padding-left: 100px;
