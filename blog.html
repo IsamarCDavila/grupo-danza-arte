@@ -21,55 +21,74 @@
       </ul>  
     </header>
     
-    <section class="hero container">
-       <h2>BLOG</h2>
-       <ul>
-           <li>
-               <img src="img/blog1.jpg" alt="">
-               <div class="articulo">
-                  <h3>TÍTULO DEL ARTÍCULO</h3>
-                  <p><i>Fecha</i></p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate alias sapiente, earum error reprehenderit odit neque tempora distinctio maiores, excepturi, ex velit voluptate reiciendis repellat ratione! Distinctio, minima recusandae!</p>
-                  <a class="vermas" href="#">Ver más</a>
-               </div>
-           </li>
-           <li>
-               <img src="img/profesor_5.jpg" alt="">
-               <div class="articulo">
-                  <h3>TÍTULO DEL ARTÍCULO</h3>
-                  <p><i>Fecha</i></p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate alias sapiente, earum error reprehenderit odit neque tempora distinctio maiores, excepturi, ex velit voluptate reiciendis repellat ratione! Distinctio, minima recusandae!</p>
-                  <a class="vermas" href="#">Ver más</a>
-               </div>
-           </li>
-           <li>
-               <img src="img/instructor_1.jpg" alt="">
-               <div class="articulo">
-                  <h3>TÍTULO DEL ARTÍCULO</h3>
-                  <p><i>Fecha</i></p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate alias sapiente, earum error reprehenderit odit neque tempora distinctio maiores, excepturi, ex velit voluptate reiciendis repellat ratione! Distinctio, minima recusandae!</p>
-                  <a class="vermas" href="#">Ver más</a>
-               </div>
-           </li>
-       </ul>
+    <section class="hero_escuela "> 
+      <h2><strong>BLOG</strong></h2>
+      <div class="container">
+      <!--Primera fila fila-->
+        <div class="row">
+          <div class="col-md-3">
+            <img class ="imagen" src="img/blog1.jpg" alt="">
+          </div>
+
+          <div class="col-md-9"> 
+            <div class="Articulo">
+              <h3>TÍTULO DEL ARTÍCULO</h3>
+              <p><i>Fecha</i></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate alias sapiente, earum error reprehenderit odit neque tempora distinctio maiores, excepturi, ex velit voluptate reiciendis repellat ratione! Distinctio, minima recusandae!</p>
+              <button class="boton">Ver más</button>
+            </div>       
+          </div>
+        </div>
+        <!--Segunda fila-->
+        <div class="row">
+          <div class="col-md-3">
+            <img class ="imagen" src="img/profesor_5.jpg" alt="">
+          </div>
+
+          <div class="col-md-9">       
+            <div class="Articulo">
+              <h3>TÍTULO DEL ARTÍCULO</h3>
+              <p><i>Fecha</i></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate alias sapiente, earum error reprehenderit odit neque tempora distinctio maiores, excepturi, ex velit voluptate reiciendis repellat ratione! Distinctio, minima recusandae!</p>
+              <button class="boton">Ver más</button>
+            </div>   
+          </div>
+        </div>
+        <!--Tercera fila-->
+        <div class="row">
+          <div class="col-md-3">
+            <img class ="imagen" src="img/instructor_1.jpg" alt="">
+          </div>
+
+          <div class="col-md-9">       
+            <div class="Articulo">
+              <h3>TÍTULO DEL ARTÍCULO</h3>
+              <p><i>Fecha</i></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate alias sapiente, earum error reprehenderit odit neque tempora distinctio maiores, excepturi, ex velit voluptate reiciendis repellat ratione! Distinctio, minima recusandae!</p>
+              <button class="boton">Ver más</button>
+            </div>   
+          </div>
+        </div>
+      </div>
     </section>
     
-    <section class="contenido container">
-     <a name="contactanos"></a>
-      <h1>Contáctanos</h1>    
-      <div class="name-box">
-        <input type="text" name="name_box" placeholder="Nombre">
-        <i class="fa fa-search"></i>
+    <section class="contenido">
+      <div class="contenedor">
+       <a name="contactanos"></a>
+       <h2 class="text-blue">Contáctanos</h2>    
+       <form action="">
+        <label class="user" for="nombre"></label>
+        <input  type="text" id="nombre" placeholder="Nombre" >
+        <img class="icono" src="icons/glyphicons-4-user.png">
+        <input type="text" id="email" placeholder="Email">
+        <label class="message" for="mensaje"></label>
+        <img class="icono" src="icons/glyphicons-11-envelope.png">
+        <textarea type="text" id="mensaje" placeholder="Mensaje"></textarea>
+        <img class="icono1" src="icons/glyphicons-31-pencil.png">
+        <input class="send" type="submit" value="ENVIAR">
+
+       </form>
       </div>
-      <div class="email-box">
-        <input type="text" name="email_box" placeholder="Email">
-        <i class="fa fa-search"></i>
-      </div>
-      <div class="message-box">
-        <input type="text" name="message_box" placeholder="Mensaje">
-        <i class="fa fa-search"></i>
-      </div>
-      <a class="send" href="#">&nbsp; ENVIAR</a>
     </section>
       
     <footer>
