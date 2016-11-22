@@ -1,21 +1,141 @@
 /* Inserta tu codigo aqui */
 .hero h2 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     color:#000000;
+    padding: 50px 0px 10px 0px;
 }
-.hero .box-uno {
-    background: url(../img/dance_12.jpg) no-repeat;
-    background-size: contain;
-    height: 400px;
+.hero .box-uno img {
+    background-size: cover;
+    height: 470px;
+    width: 350px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    
 }
 
+.hero .box-dos img {
+    background-size: cover;
+    height: 470px;
+    width: 350px;
+    margin-left: 40px;
+    
+}
+.hero .box-tres img {
+    background-size: cover;
+    height: 470px;
+    width: 350px;
+    margin-left: -12px;
+    
+}
+.hero .box-cuatro img {
+    background-size: cover;
+    height: 470px;
+    width: 350px;
+    margin-left: 80px;
+    
+}
+.hero .box-cinco img {
+    background-size: cover;
+    height: 470px;
+    width: 350px;
+    margin-left: 40px;
+    
+}
+.hero .box-seis img {
+    background-size: cover;
+    height: 470px;
+    width: 350px;
+    margin-left: -12px;
+    margin-bottom: 70px;
+    
+}
 
+.hero .box-dos div{
+     background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    
+    
+}
+.hero .box-uno div{
+     background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+}
+.hero .box-tres div{
+     background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+.hero .box-cuatro div{
+     background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 120px; 
+}
+.hero .box-cinco div{
+     background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 80px; 
+}
+.hero .box-seis div{
+     background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 30px;  
+}
 
+.hero .info h4 {
+    text-align: center;
+    font-size: 16px;
+}
+.hero .info p{
+    text-align: center;
+    padding: 3px;
+}
 .contenido {
     background: url(../img/shoes_1.jpg) no-repeat;
     background-position: right;
     height: 466px;
+}
+.contenido img{
+    position: relative;
+    top: -35px;
+    left: 10px;
+    width: 20px;
+}
+.contenido .lapiz{
+    position: relative;
+    top: -105px;
 }
 .contenido h2 {
     font-weight: bold;
