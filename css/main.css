@@ -14,6 +14,10 @@ header .container a{
 	padding: 0 20px 0 20px;
 	margin-bottom: 10px;
 	font-family: 'Indie Flower', cursive;
+	text-decoration: none;
+	-webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  filter: shadow(color=#999999, direction=135, strength=2);
 
 }
 
